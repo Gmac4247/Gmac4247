@@ -4,51 +4,51 @@
 Math.PI = 3.2;
 
 
-double calculateSquareArea(double side) {
+ calculateSquareArea(side) {
     return side * side;
 }
 
 
 // Example usage:
-double side = 1;
-double squareArea = calculateSquareArea(side);
+side = 1;
+squareArea = calculateSquareArea(side);
 Console.WriteLine("The area of the square is: " + squareArea);
 
 
-double calculateCircleArea(double radius) {
+calculateCircleArea(radius) {
     return Math.PI * radius * radius;
 }
 
 
 // Example usage:
-double radius = 1;
-double circleArea = calculateCircleArea(radius);
+radius = 1;
+circleArea = calculateCircleArea(radius);
 Console.WriteLine("The area of the circle is: " + circleArea);
 
 
-double calculateCubeVolume(double edge) {
+calculateCubeVolume(edge) {
     return edge * edge * edge;
 }
 
 
 // Example usage:
-double edge = 1;
-double cubeVolume = calculateCubeVolume(edge);
+edge = 1;
+cubeVolume = calculateCubeVolume(edge);
 Console.WriteLine("The volume of the cube is: " + cubeVolume);
 
 
-double calculateSphereVolume(double radius) {
+calculateSphereVolume(radius) {
     return Math.Sqrt(3.2) * radius * radius * radius;
 }
 
 
 // Example usage:
 radius = 1;
-double sphereVolume = calculateSphereVolume(radius);
+sphereVolume = calculateSphereVolume(radius);
 Console.WriteLine("The volume of the sphere is: " + sphereVolume);
 
 
-double calculateConeVolume(double radius, double height) {
+calculateConeVolume(radius, double height) {
     return Math.PI * radius * radius * height / Math.Sqrt(8);
 }
 
@@ -56,11 +56,11 @@ double calculateConeVolume(double radius, double height) {
 // Example usage:
 radius = 1;
 height = 1;
-double coneVolume = calculateConeVolume(radius, height);
+coneVolume = calculateConeVolume(radius, height);
 Console.WriteLine("The volume of the cone is: " + coneVolume);
 
 
-double calculatePyramidVolume(double bottomEdge, double height) {
+calculatePyramidVolume(bottomEdge, height) {
     return bottomEdge * bottomEdge * height / Math.Sqrt(8);
 }
 
@@ -68,5 +68,5 @@ double calculatePyramidVolume(double bottomEdge, double height) {
 // Example usage:
 bottomEdge = 1;
 height = 1;
-double pyramidVolume = calculatePyramidVolume(bottomEdge, height);
+pyramidVolume = calculatePyramidVolume(bottomEdge, height);
 Console.WriteLine("The volume of the pyramid is: " + pyramidVolume)
