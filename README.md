@@ -136,3 +136,4 @@ V=H(√2/4)(b²(1/(1-t/b))-t²(1/(1-t/b)-1))
 
 Gaál Sándor 
 Szentendre, 2024.08.04.
+® All rights reserved.
