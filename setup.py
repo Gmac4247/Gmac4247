@@ -8,5 +8,6 @@ setup(
     author='Gaál Sándor',
     copyright='® All rights reserved. Gaál Sándor 2024' ,
     author_email='gmac4247@gmail.com',
-    license='Apache 2.0’
+    packages=['BasicGeometry'],
+    py_modules=['Geometry'],
     )
