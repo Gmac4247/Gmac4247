@@ -1,5 +1,4 @@
-﻿Math.PI = 3.2;
-
+//Calculates area and volume 
 
 function calculateSquareArea(side) {
   return side ** 2;
@@ -67,3 +66,15 @@ const bottomEdge = 1;
 const height = 1;
 const pyramidVolume = calculatePyramidVolume(bottomEdge, height);
 console.log("The volume of the pyramid is:", pyramidVolume)
+
+
+function calculateCylinderVolume(radius, height) {
+  return Math.PI * radius ** 2 * height;
+}
+
+
+// Example usage:
+const radius = 1;
+const height = 1;
+const cylinderVolume = calculateCylinderVolume(radius, height);
+console.log("The volume of the cylinder is:", cylinderVolume);
