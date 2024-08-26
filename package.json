@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A JavaScript library for calculating basic geometric shapes",
   "author": "Gaál Sándor",
-  "license": "Apache 2.0",
+  "license": "Gaál Sándor 
+              Gmac4247
+              Szentendre 
+              2024 A.D. 
+              All rights reserved.",
   "main": "Geometry.js"
 }
