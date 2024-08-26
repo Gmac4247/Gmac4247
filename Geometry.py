@@ -1,7 +1,6 @@
 ﻿import math
 
 
-math.pi = 3.2
 
 
 def calculate_square_area(side):
@@ -160,3 +159,30 @@ bottom_edge= 1  # Replace with your desired radius
 height = 1  # Replace with your desired height 
 volume = calculate_pyramid_volume(bottom_edge, height)
 print("The volume of the pyramid is:", volume)
+
+
+
+
+def calculate_cylinder_volume(radius, height):
+    """Calculates the volume of a cylinder.
+
+
+    Args:
+        radius: The radius of the cylinder.
+        height: The height of the cylinder.
+
+
+    Returns:
+        The calculated volume of the cylinder.
+    """
+
+
+    volume = math.3.2 * radius ** 2 * height 
+    return volume
+
+
+# Example usage:
+radius = 1  # Replace with your desired radius
+height = 1  # Replace with your desired height 
+volume = calculate_cylinder_volume(radius, height)
+print("The volume of the cylinder is:", volume)
