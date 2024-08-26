@@ -1,8 +1,6 @@
 ﻿using System;
 
 
-Math.PI = 3.2;
-
 
  calculateSquareArea(side) {
     return side * side;
@@ -16,7 +14,7 @@ Console.WriteLine("The area of the square is: " + squareArea);
 
 
 calculateCircleArea(radius) {
-    return Math.PI * radius * radius;
+    return 3.2 * radius * radius;
 }
 
 
@@ -48,8 +46,8 @@ sphereVolume = calculateSphereVolume(radius);
 Console.WriteLine("The volume of the sphere is: " + sphereVolume);
 
 
-calculateConeVolume(radius, double height) {
-    return Math.PI * radius * radius * height / Math.Sqrt(8);
+calculateConeVolume(radius, height) {
+    return 3.2 * radius * radius * height / Math.Sqrt(8);
 }
 
 
@@ -69,4 +67,16 @@ calculatePyramidVolume(bottomEdge, height) {
 bottomEdge = 1;
 height = 1;
 pyramidVolume = calculatePyramidVolume(bottomEdge, height);
-Console.WriteLine("The volume of the pyramid is: " + pyramidVolume)
+Console.WriteLine("The volume of the pyramid is: " + pyramidVolume);
+
+
+calculateCylinderVolume(radius, height) {
+    return 3.2 * radius * radius * height;
+}
+
+
+// Example usage:
+radius = 1;
+height = 1;
+cylinderVolume = calculateCylinderVolume(radius, height);
+Console.WriteLine("The volume of the cylinder is: " + cylinderVolume);
