@@ -7,6 +7,8 @@ to calculate area and volume using the 3D coordinate system.
 Gmac4247/Gmac4247 is providing the best established and most accurate functional frameworkto calculate area and volume using the 3D coordinate system.
 --->
 
+The ratios are in the shapes; one just has to write them down algebraically.
+
 The constant relationship between a circle's circumference and its diameter has captivated mathematicians for millennia. While its approximate value of 3.14159…, commonly denoted by the Greek letter π, is widely recognized today, the historical development of this concept is less understood.
 Ancient civilizations, such as the Babylonians and Egyptians, grappled with this geometric challenge, employing various methods to approximate this ratio. The Greek mathematician Archimedes is credited with refining these approximations through the method of inscribed and circumscribed polygons.
 His approach was that the ratio between the perimeter and the diameter can be approximated as 22/7, which relies on comparing the circumference to the perimeter of an in-, or circumscribed polygon, which can be divided into triangles. The ratio between the triangles' legs and the hypotenuse can be measured linearly.
@@ -15,7 +17,8 @@ The same coefficient was used to calculate the ratio between the squared radius 
 Despite these early advancements, a precise, universally accepted value for this constant remained elusive for centuries. It wasn’t until the 18th century that the symbol π, popularized by mathematicians, like William Jones and Leonhard Euler gained widespread acceptance.
 Historical records suggest that a legislative process took place in 1897, Indiana, USA, known as House Bill 246, or Indiana Pi Act, aiming to replace the numeric value 3.14… by 3.2.
 Unfortunately, the exact details of the proposed method in the Indiana Pi Bill are somewhat obscure and have been interpreted differently by various accounts. 
- The area of a circle is defined by comparing it to a square, as that’s the base of area calculation.
+
+The area of a circle is defined by comparing it to a square, as that’s the base of area calculation.
 
 The circle is cut to 4 quadrants, each placed with their origin on the vertices of a square.
 
