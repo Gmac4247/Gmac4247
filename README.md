@@ -129,7 +129,7 @@ A=A(bottom)+A(side)=3.2(r²+(r²+h²)(r/√(r²+h²)))
 The volume of a pyramid is derived from the volume of a cone as V=(area of base)height√2/4.
 
 
-That makes the volume of a tetrahedron V=((√3/4)edge²)(√(⅔)edge)√2/4= (√2/4)edge³√2/4= edge³(√2/4)²= edge³2/16= edge³/8.
+That makes the volume of a tetrahedron V=((√3/4)edge²)(√(2/3)edge)√2/4= (√2/4)edge³√2/4= edge³(√2/4)²= edge³2/16= edge³/8.
 
 
 Volume of a frustum pyramid:
