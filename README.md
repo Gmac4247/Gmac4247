@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Gmac4247
-- 📐 I’m interested in providing the best established and most accurate functional framework 
+- 📐 I’m providing the best-established and most accurate functional framework 
 to calculate area and volume using the 3D coordinate system.
 
 
