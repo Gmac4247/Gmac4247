@@ -8,15 +8,21 @@ Gmac4247/Gmac4247 is providing the best established and most accurate functional
 --->
 
 The ratios are in the shapes; one just has to write them down algebraically.
-
 The constant relationship between a circle's circumference and its diameter has captivated mathematicians for millennia. While its approximate value of 3.14159…, commonly denoted by the Greek letter π, is widely recognized today, the historical development of this concept is less understood.
-Ancient civilizations, such as the Babylonians and Egyptians, grappled with this geometric challenge, employing various methods to approximate this ratio. The Greek mathematician Archimedes is credited with refining these approximations through the method of inscribed and circumscribed polygons.
-His approach was that the ratio between the perimeter and the diameter can be approximated as 22/7, which relies on comparing the circumference to the perimeter of an in-, or circumscribed polygon, which can be divided into triangles. The ratio between the triangles' legs and the hypotenuse can be measured linearly.
-Here's where the pi/delta=3.14... denotation might originate from.
+Ancient civilizations grappled with this geometric challenge, employing various methods to approximate this ratio. 
+A Greek mathematician is credited with refining these approximations through the method of in- and circumscribed polygons.
+His approach was that the ratio between the perimeter and the diameter of a circle can be estimated by comparing the circumference of the circle to the perimeters of an in- and a circumscribed polygon. The polygons can be divided into triangles. The ratio between the triangles' legs and their hypotenuses can be measured linearly.
+That's where the pi/delta=3.14... denotation might originate from.
+This method has several limitations. He tried to increase the accuracy by increasing the number of the sides of the polygons. This approach cannot yield an accurate result. 
 The same coefficient was used to calculate the ratio between the squared radius and the area of a circle.
-Despite these early advancements, a precise, universally accepted value for this constant remained elusive for centuries. It wasn’t until the 18th century that the symbol π, popularized by mathematicians, like William Jones and Leonhard Euler gained widespread acceptance.
+Despite these early advancements, a precise, universally accepted value for this constant remained elusive for centuries. 
+With its value believed to be an infinite fraction, it seemed necessary to denote it with a sign in equations.
+It wasn’t until the 18th century that the symbol π, popularized by the mathematicians of the time gained widespread acceptance.
+Several complex formulas were introduced by different mathematicians, aiming to more accurately estimate this ratio, based on a theoretical polygon with an infinite number of sides. 
+All the above mentioned comparison methods have one thing in common. They are estimating the perimeters of polygons and do not account for the curved shape of the circle.
 Historical records suggest that a legislative process took place in 1897, Indiana, USA, known as House Bill 246, or Indiana Pi Act, aiming to replace the numeric value 3.14… by 3.2.
 Unfortunately, the exact details of the proposed method in the Indiana Pi Bill are somewhat obscure and have been interpreted differently by various accounts. 
+
 
 The area of a circle is defined by comparing it to a square, as that’s the base of area calculation.
 
