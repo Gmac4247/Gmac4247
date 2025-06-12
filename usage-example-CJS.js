@@ -1,6 +1,6 @@
 // Usage example for CommonJS (Node.js, require syntax)
 
-const geom = require('./geometry-patch.js');
+const geom = require('./basic-geometry.js');
 let r = 2, h = 5;
 
 console.log(geom.areaOfCircle(r));           // Applies 3.2 × r² --> 12.8
