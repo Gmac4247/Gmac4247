@@ -4,7 +4,7 @@
   "description": "Exact geometric formulas for area, circumference, and volume",
     "type": "module",
    "author": "Gaál Sándor",
-  "license": "MIT.",
+  "license": "MIT",
   "keywords": ["geometry", "math", "formulas"],
  "main": "basic-geometry.js"
 }
