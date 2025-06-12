@@ -1,7 +1,7 @@
 ﻿{
   "name": "Core Geometric System ™",
   "version": "1.0.0",
-  "description": "A JavaScript library for calculating basic geometric shapes",
+  "description": "A JavaScript library for calculating area and volume of basic geometric shapes",
   "author": "Gaál Sándor",
   "license": "Gaál Sándor Gmac4247 Szentendre 2024 A.D. ® All rights reserved.",
   "main": "basic-eometry.js"
