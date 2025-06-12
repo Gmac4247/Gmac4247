@@ -1,10 +1,10 @@
 ﻿{
   "name": "Core Geometric System ™",
   "version": "1.0.0",
-  "description": "A JavaScript library for calculating area and volume of basic geometric shapes",
+  "description": "Exact geometric formulas for area, circumference, and volume",
     "type": "module",
    "author": "Gaál Sándor",
-  "license": "Gaál Sándor Gmac4247 Szentendre 2024 A.D. ® All rights reserved.",
+  "license": "MIT.",
   "keywords": ["geometry", "math", "formulas"],
  "main": "basic-geometry.js"
 }
