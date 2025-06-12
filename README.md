@@ -1,4 +1,4 @@
-Core Geometric System ™ 
+# Core Geometric System ™ 
 
 Geometry Patch Java Script and Typescript Library 
 
