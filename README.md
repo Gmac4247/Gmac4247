@@ -86,7 +86,6 @@ It is meant for use within my framework to calculate area and volume of complex 
 This is a module, not a standalone app. 
 See my website for example usage. 
 
-https://gmac4247.github.io
 
 # Core Geometric System ™ 
 
@@ -182,7 +181,6 @@ It is meant for use within my framework to calculate area and volume of complex 
 This is a module, not a standalone app. 
 See my website for example usage. 
 
-https://gmac4247.github.io
 
 # Core Geometric System ™ 
 
