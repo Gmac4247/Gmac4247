@@ -15,16 +15,20 @@ r²=(a/4)²+(2(a/4))²
 r=(√5)(a/4)
 
 
-Quarter of the uncovered area in the middle:
+Quarter of the uncovered area in the middle: 
+
 (√3.2r)²÷4−((90−2×Atan(1÷2))÷360×3.2r²+2(√3.2r÷4×√3.2r÷2)÷2))
 
 =
 
 An overlapping area: 
+
 2(Atan(1÷2)÷360×3.2r²−(√3.2r÷4×√3.2r÷2)÷2)
 
 
+
 The equation can be simplified algebraically.
+
 
 Simplifying both sides by 3.2r² :
 
@@ -107,16 +111,20 @@ r²=(a/4)²+(2(a/4))²
 r=(√5)(a/4)
 
 
-Quarter of the uncovered area in the middle:
+Quarter of the uncovered area in the middle: 
+
 (√3.2r)²÷4−((90−2×Atan(1÷2))÷360×3.2r²+2(√3.2r÷4×√3.2r÷2)÷2))
 
 =
 
 An overlapping area: 
+
 2(Atan(1÷2)÷360×3.2r²−(√3.2r÷4×√3.2r÷2)÷2)
 
 
+
 The equation can be simplified algebraically.
+
 
 Simplifying both sides by 3.2r² :
 
@@ -178,5 +186,5 @@ https://gmac4247.github.io
 
 # Core Geometric System ™ 
 
-The best geometric framework for calculating area and volume
+The best geometric framework for calculating area and volume 
 --->
