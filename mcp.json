@@ -138,8 +138,10 @@
   },
   "usageInfo": {
     "url": "https://basic-geometry.pages.dev#circumference",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
-      }
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+    ]
+  }
     },
      
     {
@@ -169,7 +171,9 @@
       },
       "usageInfo": {
     "url": "https://basic-geometry.pages.dev#circle-segment",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+    ]
       }
     },
 
@@ -198,7 +202,9 @@
       },
         "usageInfo": {
     "url": "https://basic-geometry.pages.dev#circle-segment",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+    ]
         }
      },
 
@@ -229,8 +235,10 @@
       },
         "usageInfo": {
     "url": "https://basic-geometry.pages.dev#circle-segment",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
-      }
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+    ]
+        }
      },
     
     {
@@ -260,8 +268,10 @@
       },
         "usageInfo": {
     "url": "https://basic-geometry.pages.dev#cone",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
-      }
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+          ]
+        }
      },
     
     {
@@ -287,7 +297,9 @@
       },
       "usageInfo": {
     "url": "https://basic-geometry.pages.dev#sphere",
-    "relatedUrls": "https://basic-geometry.pages.dev#circle"
+    "relatedUrls": [
+      "https://basic-geometry.pages.dev#circle"
+    ]
       }
     },
 
