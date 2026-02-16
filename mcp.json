@@ -1,14 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2019-09/schema",
-  "manifestType": "tool-manifest",
   "name": "core-geometric-system-backup-mcp",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Exact, self-contained geometric framework grounded in first principles, setting the square and the cube as the primary units for measurement.",
   "disambiguatingDescription": "This MCP server implements a corrected geometric framework in which constants such as 3.2 for circles and 1/√8 for cones are mathematically exact. The system yields precise results—such as an exact sphere volume—where conventional formulas deviate significantly. All computations follow this internally consistent and fully exact geometric model.",
-  "main": "worker.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./worker.js",
-    "dev": "nodemon ./worker.js"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   },
   "author": {
   "name": "Gaál Sándor",
@@ -136,9 +138,7 @@
   },
   "usageInfo": {
     "url": "https://basic-geometry.pages.dev#circumference",
-    "relatedUrls": [
-      "https://basic-geometry.pages.dev#circle"
-    ]
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
       }
     },
      
@@ -168,7 +168,8 @@
         ]
       },
       "usageInfo": {
-        "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+    "url": "https://basic-geometry.pages.dev#circle-segment",
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
       }
     },
 
@@ -196,7 +197,8 @@
         ]
       },
         "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+    "url": "https://basic-geometry.pages.dev#circle-segment",
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
         }
      },
 
@@ -226,8 +228,9 @@
         ]
       },
         "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
-        }
+    "url": "https://basic-geometry.pages.dev#circle-segment",
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
+      }
      },
     
     {
@@ -256,8 +259,9 @@
         ]
       },
         "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
-        }
+    "url": "https://basic-geometry.pages.dev#cone",
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
+      }
      },
     
     {
@@ -282,10 +286,8 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-    "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
-    ]
+    "url": "https://basic-geometry.pages.dev#sphere",
+    "relatedUrls": "https://basic-geometry.pages.dev#circle"
       }
     },
 
@@ -315,9 +317,10 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
+    "url": "https://basic-geometry.pages.dev#cap",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
      },
@@ -347,10 +350,10 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/cone-volume.md",
+    "url": "https://basic-geometry.pages.dev#cone",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
      },
@@ -386,11 +389,11 @@
         ]
         },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/pyramid-volume.md",
+    "url": "https://basic-geometry.pages.dev#pyramid",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/cone-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#cone",
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
      },
@@ -431,11 +434,12 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/pyramid-volume.md",
+    "url": "https://basic-geometry.pages.dev#frustum_pyramid",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/cone-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#pyramid",
+      "https://basic-geometry.pages.dev#cone",
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
      },
@@ -471,10 +475,13 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/cone-volume.md",
+    "url": "https://basic-geometry.pages.dev#frustum_cone",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#frustum_pyramid",
+      "https://basic-geometry.pages.dev#pyramid",
+      "https://basic-geometry.pages.dev#cone",
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
      },
@@ -501,11 +508,12 @@
         ]
       },
       "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/pyramid-volume.md",
+    "url": "https://basic-geometry.pages.dev#tetrahedron",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/cone-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/sphere-volume.md",
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#pyramid",
+      "https://basic-geometry.pages.dev#cone",
+      "https://basic-geometry.pages.dev#sphere",
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
     }
