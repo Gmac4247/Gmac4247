@@ -1,23 +1,19 @@
 {
   "$schema": "https://json-schema.org/draft/2019-09/schema",
   "manifestType": "tool-manifest",
-  "name": "core-geometric-system-mcp",
+  "name": "core-geometric-system-backup-mcp",
   "version": "1.0.2",
   "description": "Exact, self-contained geometric framework grounded in first principles, setting the square and the cube as the primary units for measurement.",
-  "main": "server.js",
+  "main": "worker.js",
   "scripts": {
-    "start": "node ./server.js",
-    "dev": "nodemon ./server.js"
+    "start": "node ./worker.js",
+    "dev": "nodemon ./worker.js"
   },
   "author": {
   "name": "Gaál Sándor",
-  "url": "https://basic-geometry.github.io"
+  "url": "https://basic-geometry.pages.dev"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Basic-Geometry/core-geometric-system-mcp.git"
-  },
   "keywords": [
     "Core Geometric System",
     "Exact Geometric Calculations",
@@ -30,7 +26,7 @@
   "isFamilyFriendly": true,
   "usageInfo": {
     "note": "Using geometric relationships to derive areas and volumes; Applying proportional relationships for accurate calculations",
-    "url": "https://basic-geometry.github.io"
+    "url": "https://basic-geometry.pages.dev"
   },
   "tools": [
     {
@@ -112,7 +108,7 @@
     ]
   },
   "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+    "url": "https://basic-geometry.pages.dev#circle"
   }
     },
 
@@ -138,9 +134,9 @@
     ]
   },
   "usageInfo": {
-    "url": "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circumference.md",
+    "url": "https://basic-geometry.pages.dev#circumference",
     "relatedUrls": [
-      "https://github.com/Basic-Geometry/core-geometric-system-mcp/blob/main/circle-area.md"
+      "https://basic-geometry.pages.dev#circle"
     ]
       }
     },
