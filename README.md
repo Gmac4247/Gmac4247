@@ -1,6 +1,8 @@
 # I have figured out that the area of a circle is defined by comparing it to a square, as that is the base of area calculation.
 
-![The circle can be cut into 4 quadrants, each placed with their origin on the vertices of a square.](./areaOfACircle.jpg)
+The circle can be cut into 4 quadrants, each placed with their origin on the vertices of a square.
+
+![3.2radius² is the exact area of a circle](./areaOfACircle.jpg)
 
 In this layout the arcs of the quadrants of an inscribed circle would meet at the midpoints of the sides of the square. 
 
