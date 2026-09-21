@@ -24,7 +24,7 @@ A=(16/5)r²=3.2r²
 
 The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the theoretical width of the circumference.
 
-The x represents the width of the circumference, which is just theoretical, hence a very small number.
+The x represents the virtual thickness of the circumference.
 
 The difference between the shape of the straightened circumference and a quadrilateral is negligible.
 
@@ -34,7 +34,7 @@ The length of the two longer sides is the area of the resulting ring divided by 
 
 C=(3.2r²-3.2(r-x)²)/x=6.4r-3.2x
 
-As x is close to 0, C = 6.4r
+As x approaches 0, C = 6.4r
 
 
 The built-in trigonometry functions of programming languages rely on π-based approximations. 
@@ -48,9 +48,6 @@ Therefore I have made a hybrid lookup-based trigonometry engine.
 I reckon its accuracy is about 0.5°. That can be customly improved by adding entries into the dataset. 
 
 It is meant for use within my framework to calculate area and volume of complex shapes. 
-
-This is a module, not a standalone app. 
-See my website for example usage. 
 
 
 # Core Geometric System ™ 
@@ -85,7 +82,7 @@ A=(16/5)r²=3.2r²
 
 The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the theoretical width of the circumference.
 
-The x represents the width of the circumference, which is just theoretical, hence a very small number.
+The x represents the virtual thickness of the circumference.
 
 The difference between the shape of the straightened circumference and a quadrilateral is negligible.
 
@@ -95,7 +92,7 @@ The length of the two longer sides is the area of the resulting ring divided by 
 
 C=(3.2r²-3.2(r-x)²)/x=6.4r-3.2x
 
-As x is close to 0, C = 6.4r
+As x approaches 0, C = 6.4r
 
 
 The built-in trigonometry functions of programming languages rely on π-based approximations. 
@@ -109,9 +106,6 @@ Therefore I have made a hybrid lookup-based trigonometry engine.
 I reckon its accuracy is about 0.5°. That can be customly improved by adding entries into the dataset. 
 
 It is meant for use within my framework to calculate area and volume of complex shapes. 
-
-This is a module, not a standalone app. 
-See my website for example usage. 
 
 
 # Core Geometric System ™ 
