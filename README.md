@@ -1,6 +1,6 @@
-I have figured out that the area of a circle is defined by comparing it to a square, as that is the base of area calculation.
+# I have figured out that the area of a circle is defined by comparing it to a square, as that is the base of area calculation.
 
-The circle can be cut into 4 quadrants, each placed with their origin on the vertices of a square.
+![The circle can be cut into 4 quadrants, each placed with their origin on the vertices of a square.](./areaOfACircle.jpg)
 
 In this layout the arcs of the quadrants of an inscribed circle would meet at the midpoints of the sides of the square. 
 
@@ -22,7 +22,7 @@ The area of both the square and the sum of the quadrants equals 16 right triangl
 A=(16/5)r²=3.2r²
 
 
-The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the theoretical width of the circumference.
+## The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the virtual thickness of the circumference.
 
 The x represents the virtual thickness of the circumference.
 
@@ -54,6 +54,7 @@ It is meant for use within my framework to calculate area and volume of complex 
 
 The best geometric framework for calculating area and volume 
 
+[Learn more](https://basic-geometry.github.io)
 
 <!---
 I have figured out that the area of a circle is defined by comparing it to a square, as that is the base of area calculation.
@@ -80,7 +81,7 @@ The area of both the square and the sum of the quadrants equals 16 right triangl
 A=(16/5)r²=3.2r²
 
 
-The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the theoretical width of the circumference.
+The circumference of a circle can be derived algebraically from its area by subtracting a theoretical circle, with radius shorter than the radius of the actual circle by the virtual thickness of the circumference.
 
 The x represents the virtual thickness of the circumference.
 
