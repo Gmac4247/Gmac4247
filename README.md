@@ -2,7 +2,7 @@ Hi! I’m Gaál Sándor. 👋
 
 I’m not the first to discover the fact that 3.2 r² is the exact area of a circle. I'm the first to prove it.
 
-![area of a circle](./circle.png)
+![area of a circle](./areaOfACircle.jpg)
 
 I have also derived the corresponding circumference, the volume of a sphere, the volume of a cone, and the related constructive relationships that inevitably follow from this constant. These results are proven discoveries, verified through algebraic derivation and physical measurement, and they form the foundation of the Core Geometric System™ (CGS).
 
